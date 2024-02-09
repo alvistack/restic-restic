@@ -1,0 +1,5 @@
+restic (100:0.17.2-1) UNRELEASED; urgency=medium
+
+  * https://github.com/restic/restic/releases/tag/v0.17.2
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Mon, 28 Oct 2024 18:46:45 +0800
