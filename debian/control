@@ -1,0 +1,21 @@
+Source: restic
+Section: net
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/restic/restic/tags
+Vcs-Browser: https://github.com/alvistack/restic-restic
+Vcs-Git: https://github.com/alvistack/restic-restic.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ golang-1.23,
+
+Package: restic
+Architecture: amd64
+Description: Backup program with deduplication and encryption
+ Restic is a backup program. It supports verification, encryption,
+ snapshots and deduplication.
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
