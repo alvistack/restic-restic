@@ -3,3 +3,6 @@
 /restic.exe
 /.vagrant
 /.vscode
+/bin
+/restic
+/vendor
