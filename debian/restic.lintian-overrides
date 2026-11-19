@@ -1,0 +1,5 @@
+restic: copyright-without-copyright-notice
+restic: initial-upload-closes-no-bugs
+restic: no-manual-page
+restic: statically-linked-binary
+restic: zero-byte-file-in-doc-directory
